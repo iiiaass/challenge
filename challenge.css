@@ -7,8 +7,12 @@
 header{
   width: 100%;
   height: 70px;
-  background-color: red;
+  background-color: #EC715F;
 }
+a {
+  text-decoration: none;
+}
+
 
 .main-visual{
   width: 100%;
