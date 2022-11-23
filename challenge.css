@@ -55,13 +55,49 @@ a {
 .portfolio{
   width: 100%;
   height: 750px;
-  background-color: orange;
+  background-color: #ECEFF1;
+}
+.portfolio-main{
+  text-align: center;
+}
+.blog-item{
+  display: flex;
+  flex-wrap: wrap;
+
+  width:920px;
+}
+
+.blog-box{
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+
+
+}
+.blog-box:nth-child(1){
+  background-image: url(img/sketch.jpg);
+}
+.blog-box:nth-child(2){
+  background-image: url(img/websuku.png);
+}
+.blog-box:nth-child(3){
+  background-image: url(img/write.jpg);
+}
+.blog-box:nth-child(4){
+  background-image: url(img/webcamp.png);
+}
+.blog-box:nth-child(5){
+  background-image: url(img/talk.jpg);
+}
+.blog-box:nth-child(6){
+  background-image: url(img/webcamp-mother.png);
 }
 
 .feature{
   width: 100%;
   height: 650px;
-  background-color: black;
+
 }
 
 .profile{
